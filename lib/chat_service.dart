@@ -3,12 +3,11 @@ import 'package:http/http.dart' as http;
 
 class ChatService {
   static final Uri chatUri = Uri.parse('https://api.awanllm.com/v1/chat/completions');
-  // final String apiKey =
-  // 'LL-xHkAloKpeno3ipsma66EZsjzEBOBPSTXcDjnH4zfhwQrrpHacBR2VZ0SMKz8PaJP';
+  
   static final Map<String, String> headers = {
     'Content-Type': 'application/json',
     'Authorization':
-        'Bearer 972fce92-2134-458d-ae08-0ff2bdd83d82',
+        'Bearer 972fce92-2134-458d-ae08-0ff2bdd83d',
   };
 
   Future<String?> request(String prompt) async {
