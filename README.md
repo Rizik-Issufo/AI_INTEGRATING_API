@@ -2,9 +2,10 @@
 
 A new Flutter project.
 
-## Getting Started
+## App that help to connect to an AI
 
-This project is a starting point for a Flutter application.
+This project is one of  starting point for a Flutter application.
+It consumes a Llama API and send requests to have the response from the API
 
 A few resources to get you started if this is your first Flutter project:
 
